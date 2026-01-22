@@ -78,3 +78,5 @@ EduTrack solves this by enforcing *strict role-based permissions* at the API lev
 ## Screenshots
 ## Admin Access
 ![Image](https://github.com/user-attachments/assets/d98ca2a8-3c3f-4f7d-8827-33073cfbc7af)
+
+## Faculity Access

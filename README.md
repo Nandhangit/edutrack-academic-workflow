@@ -45,12 +45,6 @@ and enforces access rules at the API level.
 
 ---
 
-## 🔁 System Workflow
-![System Workflow](https://raw.githubusercontent.com/Nandhangit/edutrack-academic-workflow/main/docs/workflow.png)
-
-
----
-
 
 ## 🔁 System Workflow
 
@@ -64,6 +58,10 @@ Faculty enters marks
 Admin approves records
         ↓
 Student views final results
+
+
+
+
 
 
 

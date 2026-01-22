@@ -75,7 +75,7 @@ EduTrack solves this by enforcing *strict role-based permissions* at the API lev
 - JWT (JSON Web Tokens)
 - Token sent via request headers
 
-
+**
 ## SCREENSHOTS
-![Image](https://github.com/user-attachments/assets/8b025b81-65b6-428f-9582-12b6680e3e6f)
+![Image](https://github.com/user-attachments/assets/8b025b81-65b6-428f-9582-12b6680e3e6f)**
 

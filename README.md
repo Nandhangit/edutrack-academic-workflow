@@ -43,8 +43,6 @@ and enforces access rules at the API level.
 🧑‍🏫 *Faculty* | Enter marks and create academic records |
 🛡 *Admin* | Approve records and manage the system |
 
-![Image](https://github.com/user-attachments/assets/d15a5687-2d91-4eb7-af84-6db6e95c5619)
-
 ---
 ## 🔁 System Workflow
 
@@ -59,5 +57,6 @@ Admin approves records
         ↓
 Student views final results
 
+---
 
 ![Image](https://github.com/user-attachments/assets/d15a5687-2d91-4eb7-af84-6db6e95c5619)

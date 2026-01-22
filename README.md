@@ -1,14 +1,13 @@
 <!-- # edutrack-academic-workflow
 EduTrack is a role-based academic records management system built with Django and Django REST Framework, implementing secure workflows for students, faculty, and administrators. -->
 
-# 🎓 EduTrack – Academic Records & Workflow Engine
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
   <img src="https://img.shields.io/badge/DRF-ff1709?style=for-the-badge&logo=django&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/REST_API-000000?style=for-the-badge&logo=fastapi&logoColor=white"/>
-</p>
+</p> -->
 
 <!-- <p align="center">
   <b>A role-based academic management backend implementing real-world workflows using Django REST Framework</b>
@@ -60,10 +59,19 @@ Student views final results -->
 
 # 🎓 EduTrack – Academic Records & Role-Based Workflow System
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
+  <img src="https://img.shields.io/badge/DRF-ff1709?style=for-the-badge&logo=django&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST_API-000000?style=for-the-badge&logo=fastapi&logoColor=white"/>
+</p>
+
 EduTrack is a *Django REST Framework backend application* designed to manage academic workflows using *Role-Based Access Control (RBAC)*.  
 It models a real-world education system where *Students, **Faculty, and **Admins* have clearly defined responsibilities and permissions.
 
 This project focuses on *secure APIs, **proper authorization, and **clean workflow enforcement*.
+
+
 
 ---
 

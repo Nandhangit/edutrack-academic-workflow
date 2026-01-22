@@ -15,6 +15,9 @@ EduTrack is a role-based academic records management system built with Django an
 </p>
 
 ---
+## 🔁 System Workflow
+![System Workflow](https://raw.githubusercontent.com/Nandhangit/edutrack-academic-workflow/main/docs/workflow.png)
+
 
 ## 🚀 Project Overview
 
@@ -57,6 +60,6 @@ Admin approves records
         ↓
 Student views final results
 
+---
 
-## 🔁 System Workflow
-![System Workflow](https://raw.githubusercontent.com/Nandhangit/edutrack-academic-workflow/main/docs/workflow.png)
+

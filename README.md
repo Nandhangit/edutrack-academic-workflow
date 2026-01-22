@@ -58,7 +58,4 @@ Admin approves records
 Student views final results
 
 
-## 🔁 System Workflow
-
-![System Workflow](docs/owl.jpg)
 

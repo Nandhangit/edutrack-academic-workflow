@@ -35,9 +35,6 @@ and enforces access rules at the API level.
 
 ---
 
-## 🔁 System Workflow
-![System Workflow](docs/workflow.png)
-
 ## 🧑‍🤝‍🧑 User Roles & Capabilities
 
 | Role | Capabilities |
@@ -61,13 +58,3 @@ Faculty enters marks
 Admin approves records
         ↓
 Student views final results
-
-
-
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> 470d7060fff4307861673e12a32caf95a03bacda

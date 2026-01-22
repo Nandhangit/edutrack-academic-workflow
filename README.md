@@ -57,16 +57,3 @@ Admin approves records
         ↓
 Student views final results
 
-
-
-
-
-
-
-
-
-
-
----
-
-![Image](https://github.com/user-attachments/assets/d15a5687-2d91-4eb7-af84-6db6e95c5619)

@@ -34,6 +34,9 @@ and enforces access rules at the API level.
 
 ---
 
+## 🔁 System Workflow
+![System Workflow](docs/workflow.png)
+
 ## 🧑‍🤝‍🧑 User Roles & Capabilities
 
 | Role | Capabilities |
@@ -57,10 +60,5 @@ Admin approves records
         ↓
 Student views final results
 
-## Screenshot
-
-![image Alt](https://github.com/Nandhangit/edutrack-academic-workflow/blob/68119ea68f974f5035afbf1117debc5c69c3528d/Edutrack/docs/photo.jpg)
 
 
-## 🔁 System Workflow
-![System Workflow](docs/workflow.png)

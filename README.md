@@ -15,6 +15,7 @@ EduTrack is a role-based academic records management system built with Django an
 </p>
 
 ---
+**EAGLE**
 ![Image](https://github.com/user-attachments/assets/d15a5687-2d91-4eb7-af84-6db6e95c5619)
 
 ## 🚀 Project Overview

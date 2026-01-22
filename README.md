@@ -35,9 +35,6 @@ and enforces access rules at the API level.
 
 ---
 
-## 🔁 System Workflow
-![System Workflow](docs/workflow.png)
-
 ## 🧑‍🤝‍🧑 User Roles & Capabilities
 
 | Role | Capabilities |

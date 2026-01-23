@@ -7,6 +7,9 @@ class Course(models.Model):
     semester = models.IntegerField()
     credits = models.IntegerField()
     
+    def __str__(self):
+        return self.name
+    
     
 class Enrollment(models.Model):
     
@@ -14,3 +17,5 @@ class Enrollment(models.Model):
     course = models.ForeignKey(Course,on_delete=models.CASCADE)
     status = models.CharField(max_length=20, default="ENROLLED")
     
+    # def __str__(self):
+    #     return self.student

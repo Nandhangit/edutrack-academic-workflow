@@ -9,7 +9,7 @@ class AcademicRecordViewSet(viewsets.ModelViewSet):
     
     queryset = AcademicRecord.objects.all()
     serializer_class = AcademicRecordSerializer
-    # permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
     
     
     def update(self, request, *args, **kwargs):

@@ -85,8 +85,14 @@ EduTrack solves this by enforcing *strict role-based permissions* at the API lev
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a68506b7-717c-40f0-b834-ba1ddd919944" />
 
 ## Student Course Enrollment 📒
+![Image](https://github.com/user-attachments/assets/e741d036-1a08-48c8-a10f-9c690c40a004)
+
 
 ## Student Access and Show our Marks 💯
 
+![Image](https://github.com/user-attachments/assets/5b651f1a-d60d-4ab3-886d-02803a7d0ab7)
+
 ## Student Only Access for Get our Marks ..✔️
 ## Don't Access Other students Marks, Don't changes in Our Marks.. ❌
+
+![Image](https://github.com/user-attachments/assets/b35685b5-e4cb-46d6-9898-45aab875062b)

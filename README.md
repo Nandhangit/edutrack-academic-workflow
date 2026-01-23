@@ -63,7 +63,7 @@ EduTrack solves this by enforcing *strict role-based permissions* at the API lev
 | Framework | Django |
 | API Framework | Django REST Framework |
 | Authentication | JWT (SimpleJWT) |
-| Database | SQLite (Development) |
+| Database | MySQL |
 | Testing | Postman |
 | Version Control | Git & GitHub |
 

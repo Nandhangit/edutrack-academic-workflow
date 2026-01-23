@@ -82,6 +82,8 @@ EduTrack solves this by enforcing *strict role-based permissions* at the API lev
 
 ## Faculty Access 👤
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a68506b7-717c-40f0-b834-ba1ddd919944" />
+
 ## Student Course Enrollment 📒
 
 ## Student Access and Show our Marks 💯

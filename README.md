@@ -1,7 +1,5 @@
-<!-- # edutrack-academic-workflow
-EduTrack is a role-based academic records management system built with Django and Django REST Framework, implementing secure workflows for students, faculty, and administrators. -->
 
-# 🎓 EduTrack – Academic Records & Workflow Engine
+# 🎓 EduTrack – Academic Records & Role-Based Workflow System
 
 <p align="center">
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
@@ -10,54 +8,91 @@ EduTrack is a role-based academic records management system built with Django an
   <img src="https://img.shields.io/badge/REST_API-000000?style=for-the-badge&logo=fastapi&logoColor=white"/>
 </p>
 
-<p align="center">
-  <b>A role-based academic management backend implementing real-world workflows using Django REST Framework</b>
-</p>
+EduTrack is a *Django REST Framework backend application* designed to manage academic workflows using *Role-Based Access Control (RBAC)*.  
+It models a real-world education system where *Students, **Faculty, and **Admins* have clearly defined responsibilities and permissions.
+
+This project focuses on *secure APIs, **proper authorization, and **clean workflow enforcement*.
 
 ---
 
+## 📌 Problem Statement
 
-## 🚀 Project Overview
+In academic systems:
+- Students should not edit marks
+- Faculty should not approve records
+- Only Admins should finalize results
 
-*EduTrack* is a backend-focused academic records management system that demonstrates  
-*Role-Based Access Control (RBAC), **secure authentication, and **approval workflows*  
-commonly used in real-world education platforms.
-
-This project strictly separates responsibilities between *Students, **Faculty, and **Admins*  
-and enforces access rules at the API level.
-
----
-
-## 🧠 Core Concept
-
-> 🔐 Authentication identifies the user  
-> 🎭 Authorization (role) decides what the user can do
+EduTrack solves this by enforcing *strict role-based permissions* at the API level.
 
 ---
 
-## 🧑‍🤝‍🧑 User Roles & Capabilities
+## 🎯 Project Objectives
 
-| Role | Capabilities |
-|---|---|
-🎓 *Student* | View enrolled courses and approved results |
-🧑‍🏫 *Faculty* | Enter marks and create academic records |
-🛡 *Admin* | Approve records and manage the system |
-
-![Image](https://github.com/user-attachments/assets/d15a5687-2d91-4eb7-af84-6db6e95c5619)
+- Implement JWT-based authentication
+- Enforce role-based authorization
+- Design a real academic workflow
+- Prevent unauthorized access
+- Maintain clean separation of responsibilities
 
 ---
-## 🔁 System Workflow
 
-```text
-Admin creates users & courses
-        ↓
-Student enrolls in courses
-        ↓
-Faculty enters marks
-        ↓
-Admin approves records
-        ↓
-Student views final results
+## 🧩 System Roles & Responsibilities
+
+### 👨‍🎓 Student
+- Enroll in courses
+- View *only approved* academic results
+- Cannot enter or modify marks
+
+### 👩‍🏫 Faculty
+- Enter marks & grades
+- Create academic records
+- Cannot approve records
+
+### 👨‍💼 Admin
+- Create users & courses
+- Approve academic records
+- Full system control
+
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technology |
+|-------|------------|
+| Language | Python |
+| Framework | Django |
+| API Framework | Django REST Framework |
+| Authentication | JWT (SimpleJWT) |
+| Database | MySQL |
+| Testing | Postman |
+| Version Control | Git & GitHub |
+
+---
+
+## 🔐 Authentication & Authorization
+
+### Authentication
+- JWT (JSON Web Tokens)
+- Token sent via request headers
+
+## Screenshots 🖥️
+## Admin Access🎟️
+
+![Image](https://github.com/user-attachments/assets/d98ca2a8-3c3f-4f7d-8827-33073cfbc7af)
+
+## Faculty Access 👤
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a68506b7-717c-40f0-b834-ba1ddd919944" />
+
+## Student Course Enrollment 📒
+![Image](https://github.com/user-attachments/assets/e741d036-1a08-48c8-a10f-9c690c40a004)
 
 
-![Image](https://github.com/user-attachments/assets/d15a5687-2d91-4eb7-af84-6db6e95c5619)
+## Student Access and Show our Marks 💯
+
+![Image](https://github.com/user-attachments/assets/5b651f1a-d60d-4ab3-886d-02803a7d0ab7)
+
+## Student Only Access for Get our Marks ..✔️
+## Don't Access Other students Marks, Don't changes in Our Marks.. ❌
+
+![Image](https://github.com/user-attachments/assets/b35685b5-e4cb-46d6-9898-45aab875062b)

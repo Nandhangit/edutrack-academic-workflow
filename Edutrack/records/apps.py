@@ -1,5 +1,6 @@
 from django.apps import AppConfig
 
 
-class RecordsConfig(AppConfig):
-    name = 'records'
+class AccountsConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'Edutrack.records'

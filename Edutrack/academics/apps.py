@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
-
-class AcademicsConfig(AppConfig):
-    name = 'academics'
+class AccountsConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'Edutrack.academics'

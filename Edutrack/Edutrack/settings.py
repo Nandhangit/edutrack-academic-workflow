@@ -37,9 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "accounts",
-    "academics",
-    "records",
+    'Edutrack.accounts',
+    'Edutrack.academics',
+    'Edutrack.records',
+
     "rest_framework",
     # "django.contrib.admin",
     # "django.contrib.auth",

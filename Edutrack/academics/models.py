@@ -1,5 +1,6 @@
 from django.db import models
-from accounts.models import User
+from Edutrack.accounts.models import User
+
 
 class Course(models.Model):
     

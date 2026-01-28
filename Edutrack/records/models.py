@@ -1,5 +1,5 @@
 from django.db import models
-from academics.models import Enrollment
+from Edutrack.academics.models import Enrollment
 
 
 class AcademicRecord(models.Model):

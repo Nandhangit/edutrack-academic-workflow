@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/REST_API-000000?style=for-the-badge&logo=fastapi&logoColor=white"/>
 </p>
 
+
 EduTrack is a *Django REST Framework backend application* designed to manage academic workflows using *Role-Based Access Control (RBAC)*.  
 It models a real-world education system where *Students, **Faculty, and **Admins* have clearly defined responsibilities and permissions.
 
